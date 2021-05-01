@@ -62,6 +62,8 @@ pkg upgrade -y > /dev/null 2>&1
 pkg install wget -y > /dev/null 2>&1
 pkg install git -y > /dev/null 2>&1
 pkg install nodejs -y > /dev/null 2>&1
+npm install > /dev/null 2>&1
+npm install -auditfix > /dev/null 2>&1
 cd $HOME > /dev/null 2>&1
 mkdir fatrat > /dev/null 2>&1
 git clone https://github.com/evildevill/Fatrat.git > /dev/null 2>&1
